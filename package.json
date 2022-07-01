@@ -1,0 +1,32 @@
+{
+  "name": "week03",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node./server.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.1",
+    "bootstrap-icons": "^1.8.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.0",
+    "morgan": "~1.9.1"
+  },
+  "description": "Assignment 1",
+  "main": "server.js",
+  "keywords": [
+    "node",
+    "express",
+    "mean",
+    "stack",
+    "portfolio"
+  ],
+  "author": "Rishabh Dev Dogra",
+  "license": "MIT",
+  "devDependencies": {}
+}

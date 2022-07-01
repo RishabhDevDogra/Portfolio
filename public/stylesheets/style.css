@@ -1,0 +1,228 @@
+
+/*
+ Student’s Name= Rishabh Dev Dogra 
+ StudentID = 301255606 
+ Date = 16th June , 2022 
+ */
+html {
+  position: relative;
+
+  min-height: 100%;
+  background-color: rgb(255, 250, 251);
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+  font-size: large;
+  background-color: black;
+
+}
+a{ 
+   color: white;
+  
+}
+
+.imageAboutPage {
+  width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.text-center{
+  color:rgb(255, 250, 251)
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+
+/* About Section CSS*/
+#about {
+	background: rgb(255, 250, 251);
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.section-intro {
+	margin-bottom: 2rem;
+}
+
+.intro-info {
+	margin-top: 10 rem;
+	margin-right: -30px;
+	margin-left: -30px;
+}
+.intro-info img {
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+	margin: .9rem 0 0 0;
+	float: left;
+}
+.intro-info .lead {
+	text-align: left;
+	padding-left: 13rem;
+}
+
+.about-content {
+	position: relative;
+	text-align: left;
+	max-width: 850px;
+	margin-bottom: 3.6rem;
+}
+.about-content h3 {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+}
+.about-content .info-list {
+	list-style: none;
+	margin-left: 0;
+}
+.about-content .info-list li {
+	padding: 0 0 1.5rem 0;
+	margin-bottom: .6rem;
+}
+.about-content .info-list li strong {
+	font-family: "poppins-bold", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+.about-content .info-list li span {
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: #090909;
+	font-size: 1.5rem;
+	line-height: 1;
+}
+.about-content .skill-bars {
+	margin-top: 6rem;
+}
+.portfolio{
+  background-color: black;
+}
+.button-section {
+	text-align: center;
+}
+.button-section .button {
+	width: 250px;
+}
+.button-section [class*="col-"] .button:first-child {
+	margin-right: 4rem;
+}
+
+/* Homepage Section CSS */
+.bgimagecontact{
+  height:100vh;
+  background: url('/images/home1.jpg');
+  background-size:cover;
+  position:relative;
+}
+.bgimage {
+  height:100vh;
+  background: url('/images/new.jpg');
+  background-size:cover;
+  position:relative;
+}
+
+.home_title {
+  font-size: 4.5rem;
+}
+.home_desc {
+  font-size: 2rem;
+}
+.home-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.ButtonHome{
+	background-color:black;
+            border: 3px solid green;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer
+}
+.footer-basic {
+  padding:40px 0;
+  color:#ffffff;
+  background-color:black;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
